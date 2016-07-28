@@ -1,0 +1,8 @@
+.users {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.users:not(:first-child) {
+    margin-top: 5px;
+}
